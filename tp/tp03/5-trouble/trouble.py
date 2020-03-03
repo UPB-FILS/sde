@@ -11,8 +11,7 @@ try:
     rc = 0
     while (rc < len(b_msg)):
         rc = rc + os.write(2, b_msg[rc:])
-        
+
     os.close(fd)
 except Exception as e:
     print ("Error: {}".format (e))
-
