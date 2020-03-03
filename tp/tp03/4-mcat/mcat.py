@@ -1,6 +1,8 @@
 import os
 import sys
 
+BUFSIZE = 10
+
 # len (sys.argv) - the number of arguments (command line) that the program received
 # sys.argv - array of strings with the arguments
 # sys.argv[0] - program name
@@ -12,9 +14,10 @@ if (argc < 2 or argc > 3):
 	print ("Usage:\n\t " + sys.argv[0]+ " source_file [destination_file]")
     sys.exit (0)
 
+if (argc == 2):
 #TODO 1 - open source file for reading 
 
-if (argc == 3):
+elif (argc == 3):
 	#TODO 2 - redirect stdout to destination file
 
 
