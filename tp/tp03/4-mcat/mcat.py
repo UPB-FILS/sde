@@ -10,7 +10,7 @@ argc = len (sys.argv)
 
 if (argc < 2 or argc > 3):
 	print ("Usage:\n\t " + sys.argv[0]+ " source_file [destination_file]")
-    return 0
+    sys.exit (0)
 
 #TODO 1 - open source file for reading 
 
