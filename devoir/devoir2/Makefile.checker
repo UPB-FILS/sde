@@ -1,0 +1,19 @@
+.PHONY: all clean run pack build-pre build-post
+
+all: build-pre run
+
+build-pre:
+	mkdir -p output
+	chmod u+x verify/run_all.sh
+	npm install
+
+run: 
+	cd verify && ./run_all.sh ..
+	
+pack:
+	rm -f mini-busybox.zip
+	zip -r mini-busybox.zip verify/ package.json Makefile.checker\
+		README.md 
+
+clean:
+	rm -rf verify/output/
