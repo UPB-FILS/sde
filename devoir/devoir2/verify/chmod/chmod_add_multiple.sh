@@ -4,16 +4,19 @@
 outputfile=$1
 testfile=$2
 
-rm -rf my_super_file
+rm -rf my_super_file my_ref_file
 touch my_super_file
+touch my_ref_file
+
+chmod g+wx my_ref_file
 
 python3 busybox.py chmod g+wx my_super_file &> $outputfile
 scriptresult=$?
 
-node verify/chmod/chmod.js my_super_file 674 > $testfile 2>&2
+node verify/chmod/chmod.js my_super_file my_ref_file > $testfile 2>&2
 testresult=$?
 
-rm -rf my_super_file
+rm -rf my_super_file my_ref_file
 
 if [ $testresult == 0 ]
 then

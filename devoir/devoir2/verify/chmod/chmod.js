@@ -1,12 +1,15 @@
 const fs = require ('fs');
 
 const file = process.argv[2];
-const permissions = process.argv[3];
+const refFile = process.argv[3]
 
 try{
     let stat = fs.statSync (file);
     let perm = ((stat.mode & parseInt ('777', 8)).toString(8));
-    if (permissions === perm)
+
+    stat = fs.statSync (refFile);
+    let refPerm = ((stat.mode & parseInt ('777', 8)).toString(8));
+    if (refPerm === perm)
         process.exit (0);
     process.exit (1);
 }
