@@ -11,7 +11,7 @@ sleep 2
 python3 busybox.py touch -a my_super_file &> $outputfile
 scriptresult=$?
 
-node verify/touch/touch.js my_super_file a > $testfile 2>&2
+node verify/touch/touch.js my_super_file a > $testfile 2>> $outputfile
 testresult=$?
 
 rm -rf my_super_file

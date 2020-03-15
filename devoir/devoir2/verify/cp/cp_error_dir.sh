@@ -13,8 +13,8 @@ scriptresult=$?
 
 rm -rf planet
 
-if [ $scriptresult == 0 ]
+if [ $scriptresult != 166 ]
 then
-    echo "cp command does not return 1 when trying to copy a directory without -r parameter." > $testfile
+    echo "cp command does not return -90 when trying to copy a directory without -r parameter." > $testfile
     exit -1
 fi

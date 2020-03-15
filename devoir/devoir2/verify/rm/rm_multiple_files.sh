@@ -10,7 +10,7 @@ touch mickey "minnie mouse"
 python3 busybox.py rm mickey "minnie mouse" &> $outputfile
 scriptresult=$?
 
-node verify/rm/rm.js mickey "minnie mouse" > $testfile 2>&2
+node verify/rm/rm.js mickey "minnie mouse" > $testfile 2>> $outputfile
 testresult=$?
 
 rm -f mickey "minnie mouse"

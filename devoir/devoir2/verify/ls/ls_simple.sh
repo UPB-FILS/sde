@@ -10,7 +10,7 @@ scriptresult=$?
 
 node verify/ls/readDir.js `pwd` > output/ls_out
 
-node verify/ls/ls.js output/ls_out $outputfile > $testfile
+node verify/ls/ls.js output/ls_out $outputfile > $testfile 2>> $outputfile
 testresult=$?
 
 rm -f output/ls_out

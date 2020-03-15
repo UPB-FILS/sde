@@ -9,9 +9,9 @@ rm -rf /bla
 python3 busybox.py ls /bla/bla/bla &> $outputfile
 scriptresult=$?
 
-if [ $scriptresult != 1 ]
+if [ $scriptresult != 176 ]
 then
-    echo "Command does not fail with exit code 1." > $testfile
+    echo "Command does not fail with exit code -80." > $testfile
     exit -1 
 fi
 

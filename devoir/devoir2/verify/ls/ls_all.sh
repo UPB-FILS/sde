@@ -21,7 +21,7 @@ echo ".hidden" >> output/ls_out
 python3 busybox.py ls -a `pwd`/lstest &> $outputfile
 scriptresult=$?
 
-node verify/ls/ls.js output/ls_out $outputfile a > $testfile
+node verify/ls/ls.js output/ls_out $outputfile a > $testfile 2>> $outputfile
 testresult=$?
 
 rm -rf lstest

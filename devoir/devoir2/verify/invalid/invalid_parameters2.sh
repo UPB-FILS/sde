@@ -15,9 +15,9 @@ then
     echo 'Script does not print Invalid command when command is not correct.' > $testfile
     exit -1 
 else
-    if [ $scriptresult != 1 ]
+    if [ $scriptresult != 255 ]
     then
-        echo 'Script does not return 1 when command is not correct.' > $testfile
+        echo 'Script does not return -1 when command is not correct.' > $testfile
         exit -1
     fi
 fi

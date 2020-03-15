@@ -4,7 +4,7 @@
 outputfile=$1
 testfile=$2
 
-rm -rf lstest
+rm -rf lstest output/*
 
 mkdir lstest 
 mkdir "lstest/modern family"
@@ -40,10 +40,10 @@ echo "modern family/dunphy/.." >> output/ls_out
 echo "modern family/dunphy/.alex" >> output/ls_out
 
 
-python3 busybox.py ls -r -a lstest &> $outputfile
+python3 busybox.py ls -R -a lstest &> $outputfile
 scriptresult=$?
 
-node verify/ls/ls.js output/ls_out $outputfile> $testfile
+node verify/ls/ls.js output/ls_out $outputfile> $testfile 2>> $outputfile
 testresult=$?
 
 rm -rf lstest

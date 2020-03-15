@@ -10,7 +10,7 @@ mkdir output/fry
 python3 busybox.py rmdir output/fry &> $outputfile
 scriptresult=$?
 
-node verify/rmdir/rmdir.js output/fry > $testfile 2>&2
+node verify/rmdir/rmdir.js output/fry > $testfile 2>> $outputfile
 testresult=$?
 
 rm -df output/fry

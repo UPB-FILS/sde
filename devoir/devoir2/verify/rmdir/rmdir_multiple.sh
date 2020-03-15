@@ -11,7 +11,7 @@ mkdir futurama fry bender
 python3 busybox.py rmdir futurama fry bender &> $outputfile
 scriptresult=$?
 
-node verify/rmdir/rmdir.js futurama fry bender > $testfile 2>&2
+node verify/rmdir/rmdir.js futurama fry bender > $testfile 2>> $outputfile
 testresult=$?
 
 rm -df futurama fry bender

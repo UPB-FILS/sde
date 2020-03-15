@@ -15,7 +15,7 @@ touch pixar
 python3 busybox.py rm -R -d disney pixar &> $outputfile
 scriptresult=$?
 
-node verify/rm/rm.js disney/mickey/mouse disney/mickey "disney/minnie mouse" disney pixar> $testfile 2>&2
+node verify/rm/rm.js disney/mickey/mouse disney/mickey "disney/minnie mouse" disney pixar> $testfile 2>> $outputfile
 testresult=$?
 
 rm -rf disney pixar

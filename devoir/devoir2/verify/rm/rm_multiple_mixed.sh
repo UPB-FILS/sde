@@ -11,7 +11,7 @@ mkdir pluto
 python3 busybox.py rm --R mickey pluto &> $outputfile
 scriptresult=$?
 
-node verify/rm/rm.js mickey pluto > $testfile 2>&2
+node verify/rm/rm.js mickey pluto > $testfile 2>> $outputfile
 testresult=$?
 
 rm -rf mickey pluto

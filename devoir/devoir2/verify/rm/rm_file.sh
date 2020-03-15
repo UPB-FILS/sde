@@ -10,7 +10,7 @@ touch mickey
 python3 busybox.py rm mickey &> $outputfile
 scriptresult=$?
 
-node verify/rm/rm.js mickey > $testfile 2>&2
+node verify/rm/rm.js mickey > $testfile 2>> $outputfile
 testresult=$?
 
 rm -f mickey

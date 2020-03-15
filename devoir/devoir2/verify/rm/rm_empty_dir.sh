@@ -10,7 +10,7 @@ mkdir disney
 python3 busybox.py rm -d disney &> $outputfile
 scriptresult=$?
 
-node verify/rm/rm.js disney > $testfile 2>&2
+node verify/rm/rm.js disney > $testfile 2>> $outputfile
 testresult=$?
 
 rm -df disney

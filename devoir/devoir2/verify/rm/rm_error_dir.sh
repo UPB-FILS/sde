@@ -12,13 +12,13 @@ touch pluto
 python3 busybox.py rm goofy pluto &> $outputfile
 scriptresult=$?
 
-if [ $scriptresult != 1 ]
+if [ $scriptresult != 186 ]
 then
-    echo "Command does not fail with exit code 1 when directory tries to be removed without -d or -r option." > $testfile
+    echo "Command does not fail with exit code -70 when directory tries to be removed without -d or -r option." > $testfile
     rm -rf goofy pluto
     exit -1
 else
-    node verify/rm/rm.js pluto > $testfile 2>&2
+    node verify/rm/rm.js pluto > $testfile 2>> $outputfile
     testresult=$?
     if [ $testresult != 0 ]
     then
@@ -26,7 +26,7 @@ else
         rm -rf goofy pluto
         exit -1
     else
-        node verify/rm/rm.js goofy > $testfile 2>&2
+        node verify/rm/rm.js goofy > $testfile 2>> $outputfile
         testresult=$?
         if [ $testresult == 0 ]
         then

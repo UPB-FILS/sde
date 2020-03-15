@@ -9,8 +9,8 @@ rm -rf output/*
 python3 busybox.py cp planet express &> $outputfile
 scriptresult=$?
 
-if [ $scriptresult == 0 ]
+if [ $scriptresult != 166 ]
 then
-    echo "cp command does not return 1 when trying to copy a non-existent file." > $testfile
+    echo "cp command does not return -90 when trying to copy a non-existent file." > $testfile
     exit -1
 fi

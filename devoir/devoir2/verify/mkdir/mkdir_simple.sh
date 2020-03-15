@@ -9,7 +9,7 @@ rm -rf out_dir
 python3 busybox.py mkdir out_dir &> $outputfile
 scriptresult=$?
 
-node verify/mkdir/mkdir.js out_dir > $testfile 2>&2
+node verify/mkdir/mkdir.js out_dir > $testfile 2>> $outputfile
 testresult=$?
 
 rm -df out_dir

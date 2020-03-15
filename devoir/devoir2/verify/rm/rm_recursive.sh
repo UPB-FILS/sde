@@ -12,7 +12,7 @@ touch minnie
 python3 busybox.py rm --recursive mickey minnie &> $outputfile
 scriptresult=$?
 
-node verify/rm/rm.js mickey/mouse mickey minnie > $testfile 2>&2
+node verify/rm/rm.js mickey/mouse mickey minnie > $testfile 2>> $outputfile
 testresult=$?
 
 rm -rf mickey minnie

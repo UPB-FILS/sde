@@ -1,5 +1,5 @@
-const fs = require ('fs');
 const _ = require ('lodash');
+const fs = require ('fs');
 
 const referenceFile = process.argv[2];
 const scriptFile = process.argv[3];

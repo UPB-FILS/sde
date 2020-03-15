@@ -14,7 +14,7 @@ chmod a+wx my_ref_file
 python3 busybox.py chmod a+wx my_super_file &> $outputfile
 scriptresult=$?
 
-node verify/chmod/chmod.js my_super_file my_ref_file > $testfile 2>&2
+node verify/chmod/chmod.js my_super_file my_ref_file > $testfile 2>> $outputfile
 testresult=$?
 
 rm -rf my_super_file my_ref_file

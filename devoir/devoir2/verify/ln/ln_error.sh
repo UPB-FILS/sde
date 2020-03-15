@@ -12,9 +12,9 @@ scriptresult=$?
 
 rmdir lndir
 
-if [ $scriptresult != 1 ]
+if [ $scriptresult != 206 ]
 then
-    echo "Command does not fail with exit code 1." > $testfile
+    echo "Command does not fail with exit code -50." > $testfile
     exit -1 
 fi
 

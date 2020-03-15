@@ -9,7 +9,7 @@ echo "planet express" > lnfile
 python3 busybox.py ln --symbolic lnfile ln_lnfile &> $outputfile
 scriptresult=$?
 
-node verify/ln/ln.js sym lnfile ln_lnfile > $testfile
+node verify/ln/ln.js sym lnfile ln_lnfile > $testfile 2>> $outputfile
 testresult=$?
 
 rm -f lnfile
