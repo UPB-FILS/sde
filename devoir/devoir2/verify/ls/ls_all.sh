@@ -16,6 +16,8 @@ echo "modern" > output/ls_out
 echo "family" >> output/ls_out
 echo "gloria" >> output/ls_out
 echo ".hidden" >> output/ls_out
+echo "." >> output/ls_out
+echo ".." >> output/ls_out
 
 
 python3 busybox.py ls -a `pwd`/lstest &> $outputfile

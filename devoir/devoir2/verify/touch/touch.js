@@ -4,6 +4,7 @@ const file = process.argv[2];
 const check = process.argv[3];
 
 const referenceDate = Date.now();
+console.log (referenceDate);
 try{
     let stat = fs.statSync (file);
     let accessTime = stat.atime;

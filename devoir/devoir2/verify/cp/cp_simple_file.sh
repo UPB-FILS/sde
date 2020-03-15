@@ -4,7 +4,8 @@
 outputfile=$1
 testfile=$2
 
-rm -rf output/*
+rm -rf output
+mkdir output
 
 
 python3 busybox.py cp /dev/nasty output &> $outputfile

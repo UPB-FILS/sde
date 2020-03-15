@@ -4,8 +4,6 @@
 outputfile=$1
 testfile=$2
 
-rm -rf output/*
-
 python3 busybox.py cp planet express &> $outputfile
 scriptresult=$?
 
