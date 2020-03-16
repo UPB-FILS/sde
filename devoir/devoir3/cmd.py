@@ -11,7 +11,7 @@ def shell_exit ():
     pass
 
 # Execute simple command
-def run_simple_command (simple_command, father_command):
+def run_simple_command (simple_commands_list, father_command):
     # TODO - extract command and arguments; ATTENTION! not all commands are simple_commands
     # TODO - extract redirects from father_command
     # TODO - fork parent process
