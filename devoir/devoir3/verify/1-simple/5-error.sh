@@ -1,0 +1,2 @@
+ls /software
+exit
