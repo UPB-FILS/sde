@@ -5,7 +5,6 @@ all: build-pre run
 build-pre:
 	mkdir -p output
 	chmod u+x verify/run_all.sh
-	pip3 install --target=. bashlex
 
 run: 
 	cd verify && ./run_all.sh ..
