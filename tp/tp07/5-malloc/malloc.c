@@ -19,7 +19,7 @@
 
 #include "utils.h"
 
-#define NUM_PAGES 4
+int * i;
 
 static void wait_for_input(const char *msg)
 {

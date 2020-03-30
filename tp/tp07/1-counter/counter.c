@@ -20,10 +20,10 @@
  */
 int inc(void)
 {
-	static int counter = 1;
+	static int cnt = 1;
 
-	counter++;
-	return counter;
+	cnt++;
+	return cnt;
 }
 
 
