@@ -4,6 +4,7 @@ all: build-pre run
 
 build-pre:
 	mkdir -p output
+	pip3 install bashlex
 	chmod u+x verify/run_all.sh
 
 run: 
