@@ -1,2 +1,2 @@
-./echo-SDE.sh & ./echo-Hello.sh & ./echo-from.sh & sleep 1.1
+./scripts/echo-SDE.sh & ./scripts/echo-Hello.sh & ./scripts/echo-from.sh & sleep 1.1
 exit
