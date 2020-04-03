@@ -1,0 +1,15 @@
+p 4
+p 6
+
+s 6
+
+p 6
+p 5
+
+f process_examples/process_2.pse
+
+s 8
+p 5
+p 6
+
+

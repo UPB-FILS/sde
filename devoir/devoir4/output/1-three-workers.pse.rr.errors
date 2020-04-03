@@ -1,0 +1,181 @@
+							      <
+Running process 1					      <
+  instr f, process/worker.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/worker.pse			      <
+Start process 2						      <
+							      <
+Running process 2					      <
+  instr p, 7						      <
+  run units 3						      <
+Preempted process 2					      <
+							      <
+Running process 1					      <
+  instr f, process/worker.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/worker.pse			      <
+Start process 3						      <
+							      <
+Running process 2					      <
+  run units 3						      <
+Preempted process 2					      <
+							      <
+Running process 3					      <
+  instr p, 7						      <
+  run units 3						      <
+Preempted process 3					      <
+							      <
+Running process 1					      <
+  instr f, process/worker.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/worker.pse			      <
+Start process 4						      <
+							      <
+Running process 2					      <
+  run units 1						      <
+  instr p, 3						      <
+  run units 2						      <
+Preempted process 2					      <
+							      <
+Running process 3					      <
+  run units 3						      <
+Preempted process 3					      <
+							      <
+Running process 4					      <
+  instr p, 7						      <
+  run units 3						      <
+Preempted process 4					      <
+							      <
+Running process 1					      <
+Syscall process 1, syscall number 3			      <
+End process 1						      <
+							      <
+Running process 2					      <
+  run units 1						      <
+  instr p, 5						      <
+  run units 2						      <
+Preempted process 2					      <
+							      <
+Running process 3					      <
+  run units 1						      <
+  instr p, 3						      <
+  run units 2						      <
+Preempted process 3					      <
+							      <
+Running process 4					      <
+  run units 3						      <
+Preempted process 4					      <
+							      <
+Running process 2					      <
+  run units 3						      <
+Preempted process 2					      <
+							      <
+Running process 3					      <
+  run units 1						      <
+  instr p, 5						      <
+  run units 2						      <
+Preempted process 3					      <
+							      <
+Running process 4					      <
+  run units 1						      <
+  instr p, 3						      <
+  run units 2						      <
+Preempted process 4					      <
+							      <
+Running process 2					      <
+  instr p, 9						      <
+  run units 3						      <
+Preempted process 2					      <
+							      <
+Running process 3					      <
+  run units 3						      <
+Preempted process 3					      <
+							      <
+Running process 4					      <
+  run units 1						      <
+  instr p, 5						      <
+  run units 2						      <
+Preempted process 4					      <
+							      <
+Running process 2					      <
+  run units 3						      <
+Preempted process 2					      <
+							      <
+Running process 3					      <
+  instr p, 9						      <
+  run units 3						      <
+Preempted process 3					      <
+							      <
+Running process 4					      <
+  run units 3						      <
+Preempted process 4					      <
+							      <
+Running process 2					      <
+  run units 3						      <
+Preempted process 2					      <
+							      <
+Running process 3					      <
+  run units 3						      <
+Preempted process 3					      <
+							      <
+Running process 4					      <
+  instr p, 9						      <
+  run units 3						      <
+Preempted process 4					      <
+							      <
+Running process 2					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr p, 5						      <
+  run units 2						      <
+Preempted process 2					      <
+							      <
+Running process 3					      <
+  run units 3						      <
+Preempted process 3					      <
+							      <
+Running process 4					      <
+  run units 3						      <
+Preempted process 4					      <
+							      <
+Running process 2					      <
+  run units 3						      <
+Preempted process 2					      <
+							      <
+Running process 3					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr p, 5						      <
+  run units 2						      <
+Preempted process 3					      <
+							      <
+Running process 4					      <
+  run units 3						      <
+Preempted process 4					      <
+							      <
+Running process 2					      <
+Syscall process 2, syscall number 3			      <
+End process 2						      <
+							      <
+Running process 3					      <
+  run units 3						      <
+Preempted process 3					      <
+							      <
+Running process 4					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr p, 5						      <
+  run units 2						      <
+Preempted process 4					      <
+							      <
+Running process 3					      <
+Syscall process 3, syscall number 3			      <
+End process 3						      <
+							      <
+Running process 4					      <
+  run units 3						      <
+Preempted process 4					      <
+							      <
+Running process 4					      <
+Syscall process 4, syscall number 3			      <
+End process 4						      <

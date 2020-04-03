@@ -1,0 +1,24 @@
+This file is for debugging purposes, it does not represent the output
+Start process 0
+Start process 1
+
+vtime:
+  1: 0
+Running process 1
+  instr f, process/empty.pse
+Syscall process 1, syscall number 2
+Fork process 1, process/empty.pse
+Start process 2
+
+vtime:
+  1: 0
+  2: 0
+Running process 1
+Syscall process 1, syscall number 3
+End process 1
+
+vtime:
+  2: 0
+Running process 2
+Syscall process 2, syscall number 3
+End process 2

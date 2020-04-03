@@ -1,0 +1,12 @@
+This file is for debugging purposes, it does not represent the output
+Start process 0
+Start process 1
+
+Running: 1
+Sleep: 
+Ready: 
+Running process 1
+  instr p, 1
+  run units 1
+Syscall process 1, syscall number 3
+End process 1

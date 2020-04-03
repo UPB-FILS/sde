@@ -1,0 +1,7 @@
+p 10
+f process/worker.pse
+p 10
+f process/sleeper.pse
+s 10
+f process/empty.pse
+p 10

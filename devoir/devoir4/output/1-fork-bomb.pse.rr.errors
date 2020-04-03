@@ -1,0 +1,2184 @@
+							      <
+Running process 1					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, verify/3-power/1-fork-bomb.pse		      <
+Start process 2						      <
+							      <
+Running process 2					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 2, syscall number 2			      <
+Fork process 2, verify/3-power/1-fork-bomb.pse		      <
+Start process 3						      <
+							      <
+Running process 1					      <
+  instr s, 100						      <
+Syscall process 1, syscall number 1			      <
+Sleep process 1, 100					      <
+							      <
+Running process 3					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 3, syscall number 2			      <
+Fork process 3, verify/3-power/1-fork-bomb.pse		      <
+Start process 4						      <
+							      <
+Running process 2					      <
+  instr s, 100						      <
+Syscall process 2, syscall number 1			      <
+Sleep process 2, 100					      <
+							      <
+Running process 4					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 4, syscall number 2			      <
+Fork process 4, verify/3-power/1-fork-bomb.pse		      <
+Start process 5						      <
+							      <
+Running process 3					      <
+  instr s, 100						      <
+Syscall process 3, syscall number 1			      <
+Sleep process 3, 100					      <
+							      <
+Running process 5					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 5, syscall number 2			      <
+Fork process 5, verify/3-power/1-fork-bomb.pse		      <
+Start process 6						      <
+							      <
+Running process 4					      <
+  instr s, 100						      <
+Syscall process 4, syscall number 1			      <
+Sleep process 4, 100					      <
+							      <
+Running process 6					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 6, syscall number 2			      <
+Fork process 6, verify/3-power/1-fork-bomb.pse		      <
+Start process 7						      <
+							      <
+Running process 5					      <
+  instr s, 100						      <
+Syscall process 5, syscall number 1			      <
+Sleep process 5, 100					      <
+							      <
+Running process 7					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 7, syscall number 2			      <
+Fork process 7, verify/3-power/1-fork-bomb.pse		      <
+Start process 8						      <
+							      <
+Running process 6					      <
+  instr s, 100						      <
+Syscall process 6, syscall number 1			      <
+Sleep process 6, 100					      <
+							      <
+Running process 8					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 8, syscall number 2			      <
+Fork process 8, verify/3-power/1-fork-bomb.pse		      <
+Start process 9						      <
+							      <
+Running process 7					      <
+  instr s, 100						      <
+Syscall process 7, syscall number 1			      <
+Sleep process 7, 100					      <
+							      <
+Running process 9					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 9, syscall number 2			      <
+Fork process 9, verify/3-power/1-fork-bomb.pse		      <
+Start process 10					      <
+							      <
+Running process 8					      <
+  instr s, 100						      <
+Syscall process 8, syscall number 1			      <
+Sleep process 8, 100					      <
+							      <
+Running process 10					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 10, syscall number 2			      <
+Fork process 10, verify/3-power/1-fork-bomb.pse		      <
+Start process 11					      <
+							      <
+Running process 9					      <
+  instr s, 100						      <
+Syscall process 9, syscall number 1			      <
+Sleep process 9, 100					      <
+							      <
+Running process 11					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 11, syscall number 2			      <
+Fork process 11, verify/3-power/1-fork-bomb.pse		      <
+Start process 12					      <
+							      <
+Running process 10					      <
+  instr s, 100						      <
+Syscall process 10, syscall number 1			      <
+Sleep process 10, 100					      <
+							      <
+Running process 12					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 12, syscall number 2			      <
+Fork process 12, verify/3-power/1-fork-bomb.pse		      <
+Start process 13					      <
+							      <
+Running process 11					      <
+  instr s, 100						      <
+Syscall process 11, syscall number 1			      <
+Sleep process 11, 100					      <
+							      <
+Running process 13					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 13, syscall number 2			      <
+Fork process 13, verify/3-power/1-fork-bomb.pse		      <
+Start process 14					      <
+							      <
+Running process 12					      <
+  instr s, 100						      <
+Syscall process 12, syscall number 1			      <
+Sleep process 12, 100					      <
+							      <
+Running process 14					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 14, syscall number 2			      <
+Fork process 14, verify/3-power/1-fork-bomb.pse		      <
+Start process 15					      <
+							      <
+Running process 13					      <
+  instr s, 100						      <
+Syscall process 13, syscall number 1			      <
+Sleep process 13, 100					      <
+							      <
+Running process 15					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 15, syscall number 2			      <
+Fork process 15, verify/3-power/1-fork-bomb.pse		      <
+Start process 16					      <
+							      <
+Running process 14					      <
+  instr s, 100						      <
+Syscall process 14, syscall number 1			      <
+Sleep process 14, 100					      <
+							      <
+Running process 16					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 16, syscall number 2			      <
+Fork process 16, verify/3-power/1-fork-bomb.pse		      <
+Start process 17					      <
+							      <
+Running process 15					      <
+  instr s, 100						      <
+Syscall process 15, syscall number 1			      <
+Sleep process 15, 100					      <
+							      <
+Running process 17					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 17, syscall number 2			      <
+Fork process 17, verify/3-power/1-fork-bomb.pse		      <
+Start process 18					      <
+							      <
+Running process 16					      <
+  instr s, 100						      <
+Syscall process 16, syscall number 1			      <
+Sleep process 16, 100					      <
+							      <
+Running process 18					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 18, syscall number 2			      <
+Fork process 18, verify/3-power/1-fork-bomb.pse		      <
+Start process 19					      <
+							      <
+Running process 17					      <
+  instr s, 100						      <
+Syscall process 17, syscall number 1			      <
+Sleep process 17, 100					      <
+							      <
+Running process 19					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 19, syscall number 2			      <
+Fork process 19, verify/3-power/1-fork-bomb.pse		      <
+Start process 20					      <
+							      <
+Running process 18					      <
+  instr s, 100						      <
+Syscall process 18, syscall number 1			      <
+Sleep process 18, 100					      <
+							      <
+Running process 20					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 20, syscall number 2			      <
+Fork process 20, verify/3-power/1-fork-bomb.pse		      <
+Start process 21					      <
+							      <
+Running process 19					      <
+  instr s, 100						      <
+Syscall process 19, syscall number 1			      <
+Sleep process 19, 100					      <
+							      <
+Running process 21					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 21, syscall number 2			      <
+Fork process 21, verify/3-power/1-fork-bomb.pse		      <
+Start process 22					      <
+							      <
+Running process 20					      <
+  instr s, 100						      <
+Syscall process 20, syscall number 1			      <
+Sleep process 20, 100					      <
+							      <
+Running process 22					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 22, syscall number 2			      <
+Fork process 22, verify/3-power/1-fork-bomb.pse		      <
+Start process 23					      <
+							      <
+Running process 21					      <
+  instr s, 100						      <
+Syscall process 21, syscall number 1			      <
+Sleep process 21, 100					      <
+							      <
+Running process 23					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 23, syscall number 2			      <
+Fork process 23, verify/3-power/1-fork-bomb.pse		      <
+Start process 24					      <
+							      <
+Running process 22					      <
+  instr s, 100						      <
+Syscall process 22, syscall number 1			      <
+Sleep process 22, 100					      <
+							      <
+Running process 24					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 24, syscall number 2			      <
+Fork process 24, verify/3-power/1-fork-bomb.pse		      <
+Start process 25					      <
+							      <
+Running process 23					      <
+  instr s, 100						      <
+Syscall process 23, syscall number 1			      <
+Sleep process 23, 100					      <
+							      <
+Running process 25					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 25, syscall number 2			      <
+Fork process 25, verify/3-power/1-fork-bomb.pse		      <
+Start process 26					      <
+							      <
+Running process 24					      <
+  instr s, 100						      <
+Syscall process 24, syscall number 1			      <
+Sleep process 24, 100					      <
+							      <
+Running process 26					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 26, syscall number 2			      <
+Fork process 26, verify/3-power/1-fork-bomb.pse		      <
+Start process 27					      <
+							      <
+Running process 25					      <
+  instr s, 100						      <
+Syscall process 25, syscall number 1			      <
+Sleep process 25, 100					      <
+							      <
+Running process 27					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 27, syscall number 2			      <
+Fork process 27, verify/3-power/1-fork-bomb.pse		      <
+Start process 28					      <
+							      <
+Running process 26					      <
+  instr s, 100						      <
+Syscall process 26, syscall number 1			      <
+Sleep process 26, 100					      <
+							      <
+Running process 28					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 28, syscall number 2			      <
+Fork process 28, verify/3-power/1-fork-bomb.pse		      <
+Start process 29					      <
+							      <
+Running process 27					      <
+  instr s, 100						      <
+Syscall process 27, syscall number 1			      <
+Sleep process 27, 100					      <
+							      <
+Running process 29					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 29, syscall number 2			      <
+Fork process 29, verify/3-power/1-fork-bomb.pse		      <
+Start process 30					      <
+							      <
+Running process 28					      <
+  instr s, 100						      <
+Syscall process 28, syscall number 1			      <
+Sleep process 28, 100					      <
+							      <
+Running process 30					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 30, syscall number 2			      <
+Fork process 30, verify/3-power/1-fork-bomb.pse		      <
+Start process 31					      <
+							      <
+Running process 29					      <
+  instr s, 100						      <
+Syscall process 29, syscall number 1			      <
+Sleep process 29, 100					      <
+							      <
+Running process 31					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 31, syscall number 2			      <
+Fork process 31, verify/3-power/1-fork-bomb.pse		      <
+Start process 32					      <
+							      <
+Running process 30					      <
+  instr s, 100						      <
+Syscall process 30, syscall number 1			      <
+Sleep process 30, 100					      <
+							      <
+Running process 32					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 32, syscall number 2			      <
+Fork process 32, verify/3-power/1-fork-bomb.pse		      <
+Start process 33					      <
+							      <
+Running process 31					      <
+  instr s, 100						      <
+Syscall process 31, syscall number 1			      <
+Sleep process 31, 100					      <
+							      <
+Running process 33					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 33, syscall number 2			      <
+Fork process 33, verify/3-power/1-fork-bomb.pse		      <
+Start process 34					      <
+							      <
+Running process 32					      <
+  instr s, 100						      <
+Syscall process 32, syscall number 1			      <
+Sleep process 32, 100					      <
+							      <
+Running process 34					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 34, syscall number 2			      <
+Fork process 34, verify/3-power/1-fork-bomb.pse		      <
+Start process 35					      <
+							      <
+Running process 33					      <
+  instr s, 100						      <
+Syscall process 33, syscall number 1			      <
+Sleep process 33, 100					      <
+							      <
+Running process 35					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 35, syscall number 2			      <
+Fork process 35, verify/3-power/1-fork-bomb.pse		      <
+Start process 36					      <
+							      <
+Running process 34					      <
+  instr s, 100						      <
+Syscall process 34, syscall number 1			      <
+Sleep process 34, 100					      <
+							      <
+Running process 36					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 36, syscall number 2			      <
+Fork process 36, verify/3-power/1-fork-bomb.pse		      <
+Start process 37					      <
+							      <
+Running process 35					      <
+  instr s, 100						      <
+Syscall process 35, syscall number 1			      <
+Sleep process 35, 100					      <
+							      <
+Running process 37					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 37, syscall number 2			      <
+Fork process 37, verify/3-power/1-fork-bomb.pse		      <
+Start process 38					      <
+							      <
+Running process 36					      <
+  instr s, 100						      <
+Syscall process 36, syscall number 1			      <
+Sleep process 36, 100					      <
+							      <
+Running process 38					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 38, syscall number 2			      <
+Fork process 38, verify/3-power/1-fork-bomb.pse		      <
+Start process 39					      <
+							      <
+Running process 37					      <
+  instr s, 100						      <
+Syscall process 37, syscall number 1			      <
+Sleep process 37, 100					      <
+							      <
+Running process 39					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 39, syscall number 2			      <
+Fork process 39, verify/3-power/1-fork-bomb.pse		      <
+Start process 40					      <
+							      <
+Running process 38					      <
+  instr s, 100						      <
+Syscall process 38, syscall number 1			      <
+Sleep process 38, 100					      <
+							      <
+Running process 40					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 40, syscall number 2			      <
+Fork process 40, verify/3-power/1-fork-bomb.pse		      <
+Start process 41					      <
+							      <
+Running process 39					      <
+  instr s, 100						      <
+Syscall process 39, syscall number 1			      <
+Sleep process 39, 100					      <
+							      <
+Running process 41					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 41, syscall number 2			      <
+Fork process 41, verify/3-power/1-fork-bomb.pse		      <
+Start process 42					      <
+							      <
+Running process 40					      <
+  instr s, 100						      <
+Syscall process 40, syscall number 1			      <
+Sleep process 40, 100					      <
+							      <
+Running process 42					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 42, syscall number 2			      <
+Fork process 42, verify/3-power/1-fork-bomb.pse		      <
+Start process 43					      <
+							      <
+Running process 41					      <
+  instr s, 100						      <
+Syscall process 41, syscall number 1			      <
+Sleep process 41, 100					      <
+							      <
+Running process 43					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 43, syscall number 2			      <
+Fork process 43, verify/3-power/1-fork-bomb.pse		      <
+Start process 44					      <
+							      <
+Running process 42					      <
+  instr s, 100						      <
+Syscall process 42, syscall number 1			      <
+Sleep process 42, 100					      <
+							      <
+Running process 44					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 44, syscall number 2			      <
+Fork process 44, verify/3-power/1-fork-bomb.pse		      <
+Start process 45					      <
+							      <
+Running process 43					      <
+  instr s, 100						      <
+Syscall process 43, syscall number 1			      <
+Sleep process 43, 100					      <
+							      <
+Running process 45					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 45, syscall number 2			      <
+Fork process 45, verify/3-power/1-fork-bomb.pse		      <
+Start process 46					      <
+							      <
+Running process 44					      <
+  instr s, 100						      <
+Syscall process 44, syscall number 1			      <
+Sleep process 44, 100					      <
+							      <
+Running process 46					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 46, syscall number 2			      <
+Fork process 46, verify/3-power/1-fork-bomb.pse		      <
+Start process 47					      <
+							      <
+Running process 45					      <
+  instr s, 100						      <
+Syscall process 45, syscall number 1			      <
+Sleep process 45, 100					      <
+							      <
+Running process 47					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 47, syscall number 2			      <
+Fork process 47, verify/3-power/1-fork-bomb.pse		      <
+Start process 48					      <
+							      <
+Running process 46					      <
+  instr s, 100						      <
+Syscall process 46, syscall number 1			      <
+Sleep process 46, 100					      <
+							      <
+Running process 48					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 48, syscall number 2			      <
+Fork process 48, verify/3-power/1-fork-bomb.pse		      <
+Start process 49					      <
+							      <
+Running process 47					      <
+  instr s, 100						      <
+Syscall process 47, syscall number 1			      <
+Sleep process 47, 100					      <
+							      <
+Running process 49					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 49, syscall number 2			      <
+Fork process 49, verify/3-power/1-fork-bomb.pse		      <
+Start process 50					      <
+							      <
+Running process 48					      <
+  instr s, 100						      <
+Syscall process 48, syscall number 1			      <
+Sleep process 48, 100					      <
+							      <
+Running process 50					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 50, syscall number 2			      <
+Fork process 50, verify/3-power/1-fork-bomb.pse		      <
+Start process 51					      <
+							      <
+Running process 49					      <
+  instr s, 100						      <
+Syscall process 49, syscall number 1			      <
+Sleep process 49, 100					      <
+							      <
+Running process 51					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 51, syscall number 2			      <
+Fork process 51, verify/3-power/1-fork-bomb.pse		      <
+Start process 52					      <
+							      <
+Running process 50					      <
+  instr s, 100						      <
+Syscall process 50, syscall number 1			      <
+Sleep process 50, 100					      <
+							      <
+Running process 52					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 52, syscall number 2			      <
+Fork process 52, verify/3-power/1-fork-bomb.pse		      <
+Start process 53					      <
+							      <
+Running process 51					      <
+  instr s, 100						      <
+Syscall process 51, syscall number 1			      <
+Sleep process 51, 100					      <
+							      <
+Running process 53					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 53, syscall number 2			      <
+Fork process 53, verify/3-power/1-fork-bomb.pse		      <
+Start process 54					      <
+							      <
+Running process 52					      <
+  instr s, 100						      <
+Syscall process 52, syscall number 1			      <
+Sleep process 52, 100					      <
+							      <
+Running process 54					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 54, syscall number 2			      <
+Fork process 54, verify/3-power/1-fork-bomb.pse		      <
+Start process 55					      <
+							      <
+Running process 53					      <
+  instr s, 100						      <
+Syscall process 53, syscall number 1			      <
+Sleep process 53, 100					      <
+							      <
+Running process 55					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 55, syscall number 2			      <
+Fork process 55, verify/3-power/1-fork-bomb.pse		      <
+Start process 56					      <
+							      <
+Running process 54					      <
+  instr s, 100						      <
+Syscall process 54, syscall number 1			      <
+Sleep process 54, 100					      <
+							      <
+Running process 56					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 56, syscall number 2			      <
+Fork process 56, verify/3-power/1-fork-bomb.pse		      <
+Start process 57					      <
+							      <
+Running process 55					      <
+  instr s, 100						      <
+Syscall process 55, syscall number 1			      <
+Sleep process 55, 100					      <
+							      <
+Running process 57					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 57, syscall number 2			      <
+Fork process 57, verify/3-power/1-fork-bomb.pse		      <
+Start process 58					      <
+							      <
+Running process 56					      <
+  instr s, 100						      <
+Syscall process 56, syscall number 1			      <
+Sleep process 56, 100					      <
+							      <
+Running process 58					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 58, syscall number 2			      <
+Fork process 58, verify/3-power/1-fork-bomb.pse		      <
+Start process 59					      <
+							      <
+Running process 57					      <
+  instr s, 100						      <
+Syscall process 57, syscall number 1			      <
+Sleep process 57, 100					      <
+							      <
+Running process 59					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 59, syscall number 2			      <
+Fork process 59, verify/3-power/1-fork-bomb.pse		      <
+Start process 60					      <
+							      <
+Running process 58					      <
+  instr s, 100						      <
+Syscall process 58, syscall number 1			      <
+Sleep process 58, 100					      <
+							      <
+Running process 60					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 60, syscall number 2			      <
+Fork process 60, verify/3-power/1-fork-bomb.pse		      <
+Start process 61					      <
+							      <
+Running process 59					      <
+  instr s, 100						      <
+Syscall process 59, syscall number 1			      <
+Sleep process 59, 100					      <
+							      <
+Running process 61					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 61, syscall number 2			      <
+Fork process 61, verify/3-power/1-fork-bomb.pse		      <
+Start process 62					      <
+							      <
+Running process 60					      <
+  instr s, 100						      <
+Syscall process 60, syscall number 1			      <
+Sleep process 60, 100					      <
+							      <
+Running process 62					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 62, syscall number 2			      <
+Fork process 62, verify/3-power/1-fork-bomb.pse		      <
+Start process 63					      <
+							      <
+Running process 61					      <
+  instr s, 100						      <
+Syscall process 61, syscall number 1			      <
+Sleep process 61, 100					      <
+							      <
+Running process 63					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 63, syscall number 2			      <
+Fork process 63, verify/3-power/1-fork-bomb.pse		      <
+Start process 64					      <
+							      <
+Running process 62					      <
+  instr s, 100						      <
+Syscall process 62, syscall number 1			      <
+Sleep process 62, 100					      <
+							      <
+Running process 64					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 64, syscall number 2			      <
+Fork process 64, verify/3-power/1-fork-bomb.pse		      <
+Start process 65					      <
+							      <
+Running process 63					      <
+  instr s, 100						      <
+Syscall process 63, syscall number 1			      <
+Sleep process 63, 100					      <
+							      <
+Running process 65					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 65, syscall number 2			      <
+Fork process 65, verify/3-power/1-fork-bomb.pse		      <
+Start process 66					      <
+							      <
+Running process 64					      <
+  instr s, 100						      <
+Syscall process 64, syscall number 1			      <
+Sleep process 64, 100					      <
+							      <
+Running process 66					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 66, syscall number 2			      <
+Fork process 66, verify/3-power/1-fork-bomb.pse		      <
+Start process 67					      <
+							      <
+Running process 65					      <
+  instr s, 100						      <
+Syscall process 65, syscall number 1			      <
+Sleep process 65, 100					      <
+							      <
+Running process 67					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 67, syscall number 2			      <
+Fork process 67, verify/3-power/1-fork-bomb.pse		      <
+Start process 68					      <
+							      <
+Running process 66					      <
+  instr s, 100						      <
+Syscall process 66, syscall number 1			      <
+Sleep process 66, 100					      <
+							      <
+Running process 68					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 68, syscall number 2			      <
+Fork process 68, verify/3-power/1-fork-bomb.pse		      <
+Start process 69					      <
+							      <
+Running process 67					      <
+  instr s, 100						      <
+Syscall process 67, syscall number 1			      <
+Sleep process 67, 100					      <
+							      <
+Running process 69					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 69, syscall number 2			      <
+Fork process 69, verify/3-power/1-fork-bomb.pse		      <
+Start process 70					      <
+							      <
+Running process 68					      <
+  instr s, 100						      <
+Syscall process 68, syscall number 1			      <
+Sleep process 68, 100					      <
+							      <
+Running process 70					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 70, syscall number 2			      <
+Fork process 70, verify/3-power/1-fork-bomb.pse		      <
+Start process 71					      <
+							      <
+Running process 69					      <
+  instr s, 100						      <
+Syscall process 69, syscall number 1			      <
+Sleep process 69, 100					      <
+							      <
+Running process 71					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 71, syscall number 2			      <
+Fork process 71, verify/3-power/1-fork-bomb.pse		      <
+Start process 72					      <
+							      <
+Running process 70					      <
+  instr s, 100						      <
+Syscall process 70, syscall number 1			      <
+Sleep process 70, 100					      <
+							      <
+Running process 72					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 72, syscall number 2			      <
+Fork process 72, verify/3-power/1-fork-bomb.pse		      <
+Start process 73					      <
+							      <
+Running process 71					      <
+  instr s, 100						      <
+Syscall process 71, syscall number 1			      <
+Sleep process 71, 100					      <
+							      <
+Running process 73					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 73, syscall number 2			      <
+Fork process 73, verify/3-power/1-fork-bomb.pse		      <
+Start process 74					      <
+							      <
+Running process 72					      <
+  instr s, 100						      <
+Syscall process 72, syscall number 1			      <
+Sleep process 72, 100					      <
+							      <
+Running process 74					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 74, syscall number 2			      <
+Fork process 74, verify/3-power/1-fork-bomb.pse		      <
+Start process 75					      <
+							      <
+Running process 73					      <
+  instr s, 100						      <
+Syscall process 73, syscall number 1			      <
+Sleep process 73, 100					      <
+							      <
+Running process 75					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 75, syscall number 2			      <
+Fork process 75, verify/3-power/1-fork-bomb.pse		      <
+Start process 76					      <
+							      <
+Running process 74					      <
+  instr s, 100						      <
+Syscall process 74, syscall number 1			      <
+Sleep process 74, 100					      <
+							      <
+Running process 76					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 76, syscall number 2			      <
+Fork process 76, verify/3-power/1-fork-bomb.pse		      <
+Start process 77					      <
+							      <
+Running process 75					      <
+  instr s, 100						      <
+Syscall process 75, syscall number 1			      <
+Sleep process 75, 100					      <
+							      <
+Running process 77					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 77, syscall number 2			      <
+Fork process 77, verify/3-power/1-fork-bomb.pse		      <
+Start process 78					      <
+							      <
+Running process 76					      <
+  instr s, 100						      <
+Syscall process 76, syscall number 1			      <
+Sleep process 76, 100					      <
+							      <
+Running process 78					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 78, syscall number 2			      <
+Fork process 78, verify/3-power/1-fork-bomb.pse		      <
+Start process 79					      <
+							      <
+Running process 77					      <
+  instr s, 100						      <
+Syscall process 77, syscall number 1			      <
+Sleep process 77, 100					      <
+							      <
+Running process 79					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 79, syscall number 2			      <
+Fork process 79, verify/3-power/1-fork-bomb.pse		      <
+Start process 80					      <
+							      <
+Running process 78					      <
+  instr s, 100						      <
+Syscall process 78, syscall number 1			      <
+Sleep process 78, 100					      <
+							      <
+Running process 80					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 80, syscall number 2			      <
+Fork process 80, verify/3-power/1-fork-bomb.pse		      <
+Start process 81					      <
+							      <
+Running process 79					      <
+  instr s, 100						      <
+Syscall process 79, syscall number 1			      <
+Sleep process 79, 100					      <
+							      <
+Running process 81					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 81, syscall number 2			      <
+Fork process 81, verify/3-power/1-fork-bomb.pse		      <
+Start process 82					      <
+							      <
+Running process 80					      <
+  instr s, 100						      <
+Syscall process 80, syscall number 1			      <
+Sleep process 80, 100					      <
+							      <
+Running process 82					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 82, syscall number 2			      <
+Fork process 82, verify/3-power/1-fork-bomb.pse		      <
+Start process 83					      <
+							      <
+Running process 81					      <
+  instr s, 100						      <
+Syscall process 81, syscall number 1			      <
+Sleep process 81, 100					      <
+							      <
+Running process 83					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 83, syscall number 2			      <
+Fork process 83, verify/3-power/1-fork-bomb.pse		      <
+Start process 84					      <
+							      <
+Running process 82					      <
+  instr s, 100						      <
+Syscall process 82, syscall number 1			      <
+Sleep process 82, 100					      <
+							      <
+Running process 84					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 84, syscall number 2			      <
+Fork process 84, verify/3-power/1-fork-bomb.pse		      <
+Start process 85					      <
+							      <
+Running process 83					      <
+  instr s, 100						      <
+Syscall process 83, syscall number 1			      <
+Sleep process 83, 100					      <
+							      <
+Running process 85					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 85, syscall number 2			      <
+Fork process 85, verify/3-power/1-fork-bomb.pse		      <
+Start process 86					      <
+							      <
+Running process 84					      <
+  instr s, 100						      <
+Syscall process 84, syscall number 1			      <
+Sleep process 84, 100					      <
+							      <
+Running process 86					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 86, syscall number 2			      <
+Fork process 86, verify/3-power/1-fork-bomb.pse		      <
+Start process 87					      <
+							      <
+Running process 85					      <
+  instr s, 100						      <
+Syscall process 85, syscall number 1			      <
+Sleep process 85, 100					      <
+							      <
+Running process 87					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 87, syscall number 2			      <
+Fork process 87, verify/3-power/1-fork-bomb.pse		      <
+Start process 88					      <
+							      <
+Running process 86					      <
+  instr s, 100						      <
+Syscall process 86, syscall number 1			      <
+Sleep process 86, 100					      <
+							      <
+Running process 88					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 88, syscall number 2			      <
+Fork process 88, verify/3-power/1-fork-bomb.pse		      <
+Start process 89					      <
+							      <
+Running process 87					      <
+  instr s, 100						      <
+Syscall process 87, syscall number 1			      <
+Sleep process 87, 100					      <
+							      <
+Running process 89					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 89, syscall number 2			      <
+Fork process 89, verify/3-power/1-fork-bomb.pse		      <
+Start process 90					      <
+							      <
+Running process 88					      <
+  instr s, 100						      <
+Syscall process 88, syscall number 1			      <
+Sleep process 88, 100					      <
+							      <
+Running process 90					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 90, syscall number 2			      <
+Fork process 90, verify/3-power/1-fork-bomb.pse		      <
+Start process 91					      <
+							      <
+Running process 89					      <
+  instr s, 100						      <
+Syscall process 89, syscall number 1			      <
+Sleep process 89, 100					      <
+							      <
+Running process 91					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 91, syscall number 2			      <
+Fork process 91, verify/3-power/1-fork-bomb.pse		      <
+Start process 92					      <
+							      <
+Running process 90					      <
+  instr s, 100						      <
+Syscall process 90, syscall number 1			      <
+Sleep process 90, 100					      <
+							      <
+Running process 92					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 92, syscall number 2			      <
+Fork process 92, verify/3-power/1-fork-bomb.pse		      <
+Start process 93					      <
+							      <
+Running process 91					      <
+  instr s, 100						      <
+Syscall process 91, syscall number 1			      <
+Sleep process 91, 100					      <
+							      <
+Running process 93					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 93, syscall number 2			      <
+Fork process 93, verify/3-power/1-fork-bomb.pse		      <
+Start process 94					      <
+							      <
+Running process 92					      <
+  instr s, 100						      <
+Syscall process 92, syscall number 1			      <
+Sleep process 92, 100					      <
+							      <
+Running process 94					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 94, syscall number 2			      <
+Fork process 94, verify/3-power/1-fork-bomb.pse		      <
+Start process 95					      <
+							      <
+Running process 93					      <
+  instr s, 100						      <
+Syscall process 93, syscall number 1			      <
+Sleep process 93, 100					      <
+							      <
+Running process 95					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 95, syscall number 2			      <
+Fork process 95, verify/3-power/1-fork-bomb.pse		      <
+Start process 96					      <
+							      <
+Running process 94					      <
+  instr s, 100						      <
+Syscall process 94, syscall number 1			      <
+Sleep process 94, 100					      <
+							      <
+Running process 96					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 96, syscall number 2			      <
+Fork process 96, verify/3-power/1-fork-bomb.pse		      <
+Start process 97					      <
+							      <
+Running process 95					      <
+  instr s, 100						      <
+Syscall process 95, syscall number 1			      <
+Sleep process 95, 100					      <
+							      <
+Running process 97					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 97, syscall number 2			      <
+Fork process 97, verify/3-power/1-fork-bomb.pse		      <
+Start process 98					      <
+							      <
+Running process 96					      <
+  instr s, 100						      <
+Syscall process 96, syscall number 1			      <
+Sleep process 96, 100					      <
+							      <
+Running process 98					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 98, syscall number 2			      <
+Fork process 98, verify/3-power/1-fork-bomb.pse		      <
+Start process 99					      <
+							      <
+Running process 97					      <
+  instr s, 100						      <
+Syscall process 97, syscall number 1			      <
+Sleep process 97, 100					      <
+							      <
+Running process 99					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 99, syscall number 2			      <
+Fork process 99, verify/3-power/1-fork-bomb.pse		      <
+							      <
+Running process 98					      <
+  instr s, 100						      <
+Syscall process 98, syscall number 1			      <
+Sleep process 98, 100					      <
+							      <
+Running process 99					      <
+  instr s, 100						      <
+Syscall process 99, syscall number 1			      <
+Sleep process 99, 100					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+Syscall process 0, syscall number 1			      <
+Sleep process 0, 1					      <
+							      <
+Running process 1					      <
+Syscall process 1, syscall number 3			      <
+End process 1						      <
+							      <
+Running process 2					      <
+Syscall process 2, syscall number 3			      <
+End process 2						      <
+							      <
+Running process 3					      <
+Syscall process 3, syscall number 3			      <
+End process 3						      <
+							      <
+Running process 4					      <
+Syscall process 4, syscall number 3			      <
+End process 4						      <
+							      <
+Running process 5					      <
+Syscall process 5, syscall number 3			      <
+End process 5						      <
+							      <
+Running process 6					      <
+Syscall process 6, syscall number 3			      <
+End process 6						      <
+							      <
+Running process 7					      <
+Syscall process 7, syscall number 3			      <
+End process 7						      <
+							      <
+Running process 8					      <
+Syscall process 8, syscall number 3			      <
+End process 8						      <
+							      <
+Running process 9					      <
+Syscall process 9, syscall number 3			      <
+End process 9						      <
+							      <
+Running process 10					      <
+Syscall process 10, syscall number 3			      <
+End process 10						      <
+							      <
+Running process 11					      <
+Syscall process 11, syscall number 3			      <
+End process 11						      <
+							      <
+Running process 12					      <
+Syscall process 12, syscall number 3			      <
+End process 12						      <
+							      <
+Running process 13					      <
+Syscall process 13, syscall number 3			      <
+End process 13						      <
+							      <
+Running process 14					      <
+Syscall process 14, syscall number 3			      <
+End process 14						      <
+							      <
+Running process 15					      <
+Syscall process 15, syscall number 3			      <
+End process 15						      <
+							      <
+Running process 16					      <
+Syscall process 16, syscall number 3			      <
+End process 16						      <
+							      <
+Running process 17					      <
+Syscall process 17, syscall number 3			      <
+End process 17						      <
+							      <
+Running process 18					      <
+Syscall process 18, syscall number 3			      <
+End process 18						      <
+							      <
+Running process 19					      <
+Syscall process 19, syscall number 3			      <
+End process 19						      <
+							      <
+Running process 20					      <
+Syscall process 20, syscall number 3			      <
+End process 20						      <
+							      <
+Running process 21					      <
+Syscall process 21, syscall number 3			      <
+End process 21						      <
+							      <
+Running process 22					      <
+Syscall process 22, syscall number 3			      <
+End process 22						      <
+							      <
+Running process 23					      <
+Syscall process 23, syscall number 3			      <
+End process 23						      <
+							      <
+Running process 24					      <
+Syscall process 24, syscall number 3			      <
+End process 24						      <
+							      <
+Running process 25					      <
+Syscall process 25, syscall number 3			      <
+End process 25						      <
+							      <
+Running process 26					      <
+Syscall process 26, syscall number 3			      <
+End process 26						      <
+							      <
+Running process 27					      <
+Syscall process 27, syscall number 3			      <
+End process 27						      <
+							      <
+Running process 28					      <
+Syscall process 28, syscall number 3			      <
+End process 28						      <
+							      <
+Running process 29					      <
+Syscall process 29, syscall number 3			      <
+End process 29						      <
+							      <
+Running process 30					      <
+Syscall process 30, syscall number 3			      <
+End process 30						      <
+							      <
+Running process 31					      <
+Syscall process 31, syscall number 3			      <
+End process 31						      <
+							      <
+Running process 32					      <
+Syscall process 32, syscall number 3			      <
+End process 32						      <
+							      <
+Running process 33					      <
+Syscall process 33, syscall number 3			      <
+End process 33						      <
+							      <
+Running process 34					      <
+Syscall process 34, syscall number 3			      <
+End process 34						      <
+							      <
+Running process 35					      <
+Syscall process 35, syscall number 3			      <
+End process 35						      <
+							      <
+Running process 36					      <
+Syscall process 36, syscall number 3			      <
+End process 36						      <
+							      <
+Running process 37					      <
+Syscall process 37, syscall number 3			      <
+End process 37						      <
+							      <
+Running process 38					      <
+Syscall process 38, syscall number 3			      <
+End process 38						      <
+							      <
+Running process 39					      <
+Syscall process 39, syscall number 3			      <
+End process 39						      <
+							      <
+Running process 40					      <
+Syscall process 40, syscall number 3			      <
+End process 40						      <
+							      <
+Running process 41					      <
+Syscall process 41, syscall number 3			      <
+End process 41						      <
+							      <
+Running process 42					      <
+Syscall process 42, syscall number 3			      <
+End process 42						      <
+							      <
+Running process 43					      <
+Syscall process 43, syscall number 3			      <
+End process 43						      <
+							      <
+Running process 44					      <
+Syscall process 44, syscall number 3			      <
+End process 44						      <
+							      <
+Running process 45					      <
+Syscall process 45, syscall number 3			      <
+End process 45						      <
+							      <
+Running process 46					      <
+Syscall process 46, syscall number 3			      <
+End process 46						      <
+							      <
+Running process 47					      <
+Syscall process 47, syscall number 3			      <
+End process 47						      <
+							      <
+Running process 48					      <
+Syscall process 48, syscall number 3			      <
+End process 48						      <
+							      <
+Running process 49					      <
+Syscall process 49, syscall number 3			      <
+End process 49						      <
+							      <
+Running process 50					      <
+Syscall process 50, syscall number 3			      <
+End process 50						      <
+							      <
+Running process 51					      <
+Syscall process 51, syscall number 3			      <
+End process 51						      <
+							      <
+Running process 52					      <
+Syscall process 52, syscall number 3			      <
+End process 52						      <
+							      <
+Running process 53					      <
+Syscall process 53, syscall number 3			      <
+End process 53						      <
+							      <
+Running process 54					      <
+Syscall process 54, syscall number 3			      <
+End process 54						      <
+							      <
+Running process 55					      <
+Syscall process 55, syscall number 3			      <
+End process 55						      <
+							      <
+Running process 56					      <
+Syscall process 56, syscall number 3			      <
+End process 56						      <
+							      <
+Running process 57					      <
+Syscall process 57, syscall number 3			      <
+End process 57						      <
+							      <
+Running process 58					      <
+Syscall process 58, syscall number 3			      <
+End process 58						      <
+							      <
+Running process 59					      <
+Syscall process 59, syscall number 3			      <
+End process 59						      <
+							      <
+Running process 60					      <
+Syscall process 60, syscall number 3			      <
+End process 60						      <
+							      <
+Running process 61					      <
+Syscall process 61, syscall number 3			      <
+End process 61						      <
+							      <
+Running process 62					      <
+Syscall process 62, syscall number 3			      <
+End process 62						      <
+							      <
+Running process 63					      <
+Syscall process 63, syscall number 3			      <
+End process 63						      <
+							      <
+Running process 64					      <
+Syscall process 64, syscall number 3			      <
+End process 64						      <
+							      <
+Running process 65					      <
+Syscall process 65, syscall number 3			      <
+End process 65						      <
+							      <
+Running process 66					      <
+Syscall process 66, syscall number 3			      <
+End process 66						      <
+							      <
+Running process 67					      <
+Syscall process 67, syscall number 3			      <
+End process 67						      <
+							      <
+Running process 68					      <
+Syscall process 68, syscall number 3			      <
+End process 68						      <
+							      <
+Running process 69					      <
+Syscall process 69, syscall number 3			      <
+End process 69						      <
+							      <
+Running process 70					      <
+Syscall process 70, syscall number 3			      <
+End process 70						      <
+							      <
+Running process 71					      <
+Syscall process 71, syscall number 3			      <
+End process 71						      <
+							      <
+Running process 72					      <
+Syscall process 72, syscall number 3			      <
+End process 72						      <
+							      <
+Running process 73					      <
+Syscall process 73, syscall number 3			      <
+End process 73						      <
+							      <
+Running process 74					      <
+Syscall process 74, syscall number 3			      <
+End process 74						      <
+							      <
+Running process 75					      <
+Syscall process 75, syscall number 3			      <
+End process 75						      <
+							      <
+Running process 76					      <
+Syscall process 76, syscall number 3			      <
+End process 76						      <
+							      <
+Running process 77					      <
+Syscall process 77, syscall number 3			      <
+End process 77						      <
+							      <
+Running process 78					      <
+Syscall process 78, syscall number 3			      <
+End process 78						      <
+							      <
+Running process 79					      <
+Syscall process 79, syscall number 3			      <
+End process 79						      <
+							      <
+Running process 80					      <
+Syscall process 80, syscall number 3			      <
+End process 80						      <
+							      <
+Running process 81					      <
+Syscall process 81, syscall number 3			      <
+End process 81						      <
+							      <
+Running process 82					      <
+Syscall process 82, syscall number 3			      <
+End process 82						      <
+							      <
+Running process 83					      <
+Syscall process 83, syscall number 3			      <
+End process 83						      <
+							      <
+Running process 84					      <
+Syscall process 84, syscall number 3			      <
+End process 84						      <
+							      <
+Running process 85					      <
+Syscall process 85, syscall number 3			      <
+End process 85						      <
+							      <
+Running process 86					      <
+Syscall process 86, syscall number 3			      <
+End process 86						      <
+							      <
+Running process 87					      <
+Syscall process 87, syscall number 3			      <
+End process 87						      <
+							      <
+Running process 88					      <
+Syscall process 88, syscall number 3			      <
+End process 88						      <
+							      <
+Running process 89					      <
+Syscall process 89, syscall number 3			      <
+End process 89						      <
+							      <
+Running process 90					      <
+Syscall process 90, syscall number 3			      <
+End process 90						      <
+							      <
+Running process 91					      <
+Syscall process 91, syscall number 3			      <
+End process 91						      <
+							      <
+Running process 92					      <
+Syscall process 92, syscall number 3			      <
+End process 92						      <
+							      <
+Running process 93					      <
+Syscall process 93, syscall number 3			      <
+End process 93						      <
+							      <
+Running process 94					      <
+Syscall process 94, syscall number 3			      <
+End process 94						      <
+							      <
+Running process 95					      <
+Syscall process 95, syscall number 3			      <
+End process 95						      <
+							      <
+Running process 96					      <
+Syscall process 96, syscall number 3			      <
+End process 96						      <
+							      <
+Running process 97					      <
+Syscall process 97, syscall number 3			      <
+End process 97						      <
+							      <
+Running process 98					      <
+Syscall process 98, syscall number 3			      <
+End process 98						      <
+							      <
+Running process 99					      <
+Syscall process 99, syscall number 3			      <
+End process 99						      <

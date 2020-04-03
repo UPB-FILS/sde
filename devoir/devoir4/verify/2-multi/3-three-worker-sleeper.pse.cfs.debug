@@ -1,0 +1,468 @@
+This file is for debugging purposes, it does not represent the output
+Start process 0
+Start process 1
+
+vtime:
+  1: 0
+Running process 1
+  instr f, process/sleeper.pse
+Syscall process 1, syscall number 2
+Fork process 1, process/sleeper.pse
+Start process 2
+
+vtime:
+  1: 0
+  2: 0
+Running process 1
+  instr f, process/worker.pse
+Syscall process 1, syscall number 2
+Fork process 1, process/worker.pse
+Start process 3
+
+vtime:
+  1: 0
+  2: 0
+  3: 0
+Running process 1
+  instr f, process/sleeper.pse
+Syscall process 1, syscall number 2
+Fork process 1, process/sleeper.pse
+Start process 4
+
+vtime:
+  1: 0
+  2: 0
+  3: 0
+  4: 0
+Running process 1
+Syscall process 1, syscall number 3
+End process 1
+
+vtime:
+  2: 0
+  3: 0
+  4: 0
+Running process 2
+  instr s, 1
+Syscall process 2, syscall number 1
+Sleep process 2, 1
+
+vtime:
+  2: 0
+  3: 0
+  4: 0
+Running process 3
+  instr p, 7
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 1
+  4: 0
+Running process 2
+  instr s, 3
+Syscall process 2, syscall number 1
+Sleep process 2, 3
+
+vtime:
+  2: 0
+  3: 1
+  4: 0
+Running process 4
+  instr s, 1
+Syscall process 4, syscall number 1
+Sleep process 4, 1
+
+vtime:
+  2: 0
+  3: 1
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 2
+  4: 0
+Running process 4
+  instr s, 3
+Syscall process 4, syscall number 1
+Sleep process 4, 3
+
+vtime:
+  2: 0
+  3: 2
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 3
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 4
+  4: 0
+Running process 2
+  instr s, 10
+Syscall process 2, syscall number 1
+Sleep process 2, 10
+
+vtime:
+  2: 0
+  3: 4
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 5
+  4: 0
+Running process 4
+  instr s, 10
+Syscall process 4, syscall number 1
+Sleep process 4, 10
+
+vtime:
+  2: 0
+  3: 5
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 6
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 7
+  4: 0
+Running process 3
+  instr p, 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 8
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 9
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 10
+  4: 0
+Running process 3
+  instr p, 5
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 11
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 12
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 13
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 14
+  4: 0
+Running process 2
+  instr s, 9
+Syscall process 2, syscall number 1
+Sleep process 2, 9
+
+vtime:
+  2: 0
+  3: 14
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 15
+  4: 0
+Running process 4
+  instr s, 9
+Syscall process 4, syscall number 1
+Sleep process 4, 9
+
+vtime:
+  2: 0
+  3: 15
+  4: 0
+Running process 3
+  instr p, 9
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 16
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 17
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 18
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 19
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 20
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 21
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 22
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 23
+  4: 0
+Running process 2
+  instr s, 8
+Syscall process 2, syscall number 1
+Sleep process 2, 8
+
+vtime:
+  2: 0
+  3: 23
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 24
+  4: 0
+Running process 4
+  instr s, 8
+Syscall process 4, syscall number 1
+Sleep process 4, 8
+
+vtime:
+  2: 0
+  3: 24
+  4: 0
+Running process 3
+  instr p, 1
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 25
+  4: 0
+Running process 3
+  instr p, 5
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 26
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 27
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 28
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 29
+  4: 0
+Running process 3
+  run units 1
+Preempted process 3
+
+vtime:
+  2: 0
+  3: 30
+  4: 0
+Running process 3
+Syscall process 3, syscall number 3
+End process 3
+
+vtime:
+  2: 0
+  4: 0
+Running process 0
+  instr p, 1
+  run units 1
+Preempted process 0
+
+vtime:
+  2: 0
+  4: 0
+Running process 2
+  instr s, 2
+Syscall process 2, syscall number 1
+Sleep process 2, 2
+
+vtime:
+  2: 0
+  4: 0
+Running process 0
+  instr s, 1
+Syscall process 0, syscall number 1
+Sleep process 0, 1
+
+vtime:
+  2: 0
+  4: 0
+Running process 0
+  instr p, 1
+  run units 1
+Preempted process 0
+
+vtime:
+  2: 0
+  4: 0
+Running process 4
+  instr s, 2
+Syscall process 4, syscall number 1
+Sleep process 4, 2
+
+vtime:
+  2: 0
+  4: 0
+Running process 0
+  instr s, 1
+Syscall process 0, syscall number 1
+Sleep process 0, 1
+
+vtime:
+  2: 0
+  4: 0
+Running process 0
+  instr p, 1
+  run units 1
+Preempted process 0
+
+vtime:
+  2: 0
+  4: 0
+Running process 2
+Syscall process 2, syscall number 3
+End process 2
+
+vtime:
+  4: 0
+Running process 0
+  instr s, 1
+Syscall process 0, syscall number 1
+Sleep process 0, 1
+
+vtime:
+  4: 0
+Running process 0
+  instr p, 1
+  run units 1
+  instr s, 1
+Syscall process 0, syscall number 1
+Sleep process 0, 1
+
+vtime:
+  4: 0
+Running process 4
+Syscall process 4, syscall number 3
+End process 4

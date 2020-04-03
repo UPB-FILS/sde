@@ -1,0 +1,435 @@
+This file is for debugging purposes, it does not represent the output
+Start process 0
+Start process 1
+
+priority:
+  1: 5
+Running: 1
+Sleep: 
+Ready: 
+Running process 1
+  instr f, process/worker.pse
+Syscall process 1, syscall number 2
+Fork process 1, process/worker.pse
+Start process 2
+
+priority:
+  1: 5
+  2: 5
+Running: 2
+Sleep: 
+Ready: 1 
+Running process 2
+  instr p, 7
+  run units 3
+Preempted process 2
+
+priority:
+  1: 5
+  2: 4
+Running: 1
+Sleep: 
+Ready: 2 
+Running process 1
+  instr f, process/worker.pse
+Syscall process 1, syscall number 2
+Fork process 1, process/worker.pse
+Start process 3
+
+priority:
+  1: 5
+  2: 4
+  3: 5
+Running: 3
+Sleep: 
+Ready: 2 1 
+Running process 3
+  instr p, 7
+  run units 3
+Preempted process 3
+
+priority:
+  1: 5
+  2: 4
+  3: 4
+Running: 1
+Sleep: 
+Ready: 2 3 
+Running process 1
+  instr f, process/worker.pse
+Syscall process 1, syscall number 2
+Fork process 1, process/worker.pse
+Start process 4
+
+priority:
+  1: 5
+  2: 4
+  3: 4
+  4: 5
+Running: 4
+Sleep: 
+Ready: 2 3 1 
+Running process 4
+  instr p, 7
+  run units 3
+Preempted process 4
+
+priority:
+  1: 5
+  2: 4
+  3: 4
+  4: 4
+Running: 1
+Sleep: 
+Ready: 2 3 4 
+Running process 1
+Syscall process 1, syscall number 3
+End process 1
+
+priority:
+  2: 4
+  3: 4
+  4: 4
+Running: 2
+Sleep: 
+Ready: 3 4 
+Running process 2
+  run units 3
+Preempted process 2
+
+priority:
+  2: 3
+  3: 4
+  4: 4
+Running: 3
+Sleep: 
+Ready: 4 2 
+Running process 3
+  run units 3
+Preempted process 3
+
+priority:
+  2: 3
+  3: 3
+  4: 4
+Running: 4
+Sleep: 
+Ready: 2 3 
+Running process 4
+  run units 3
+Preempted process 4
+
+priority:
+  2: 3
+  3: 3
+  4: 3
+Running: 2
+Sleep: 
+Ready: 3 4 
+Running process 2
+  run units 1
+  instr p, 3
+  run units 2
+Preempted process 2
+
+priority:
+  2: 2
+  3: 3
+  4: 3
+Running: 3
+Sleep: 
+Ready: 4 2 
+Running process 3
+  run units 1
+  instr p, 3
+  run units 2
+Preempted process 3
+
+priority:
+  2: 2
+  3: 2
+  4: 3
+Running: 4
+Sleep: 
+Ready: 2 3 
+Running process 4
+  run units 1
+  instr p, 3
+  run units 2
+Preempted process 4
+
+priority:
+  2: 2
+  3: 2
+  4: 2
+Running: 2
+Sleep: 
+Ready: 3 4 
+Running process 2
+  run units 1
+  instr p, 5
+  run units 2
+Preempted process 2
+
+priority:
+  2: 1
+  3: 2
+  4: 2
+Running: 3
+Sleep: 
+Ready: 4 2 
+Running process 3
+  run units 1
+  instr p, 5
+  run units 2
+Preempted process 3
+
+priority:
+  2: 1
+  3: 1
+  4: 2
+Running: 4
+Sleep: 
+Ready: 2 3 
+Running process 4
+  run units 1
+  instr p, 5
+  run units 2
+Preempted process 4
+
+priority:
+  2: 1
+  3: 1
+  4: 1
+Running: 2
+Sleep: 
+Ready: 3 4 
+Running process 2
+  run units 3
+Preempted process 2
+
+priority:
+  2: 2
+  3: 1
+  4: 1
+Running: 2
+Sleep: 
+Ready: 3 4 
+Running process 2
+  instr p, 9
+  run units 3
+Preempted process 2
+
+priority:
+  2: 1
+  3: 1
+  4: 1
+Running: 3
+Sleep: 
+Ready: 4 2 
+Running process 3
+  run units 3
+Preempted process 3
+
+priority:
+  2: 1
+  3: 2
+  4: 1
+Running: 3
+Sleep: 
+Ready: 4 2 
+Running process 3
+  instr p, 9
+  run units 3
+Preempted process 3
+
+priority:
+  2: 1
+  3: 1
+  4: 1
+Running: 4
+Sleep: 
+Ready: 2 3 
+Running process 4
+  run units 3
+Preempted process 4
+
+priority:
+  2: 1
+  3: 1
+  4: 2
+Running: 4
+Sleep: 
+Ready: 2 3 
+Running process 4
+  instr p, 9
+  run units 3
+Preempted process 4
+
+priority:
+  2: 1
+  3: 1
+  4: 1
+Running: 2
+Sleep: 
+Ready: 3 4 
+Running process 2
+  run units 3
+Preempted process 2
+
+priority:
+  2: 0
+  3: 1
+  4: 1
+Running: 3
+Sleep: 
+Ready: 4 2 
+Running process 3
+  run units 3
+Preempted process 3
+
+priority:
+  2: 0
+  3: 0
+  4: 1
+Running: 4
+Sleep: 
+Ready: 2 3 
+Running process 4
+  run units 3
+Preempted process 4
+
+priority:
+  2: 0
+  3: 0
+  4: 0
+Running: 2
+Sleep: 
+Ready: 3 4 
+Running process 2
+  run units 3
+Preempted process 2
+
+priority:
+  2: 1
+  3: 0
+  4: 0
+Running: 2
+Sleep: 
+Ready: 3 4 
+Running process 2
+  instr p, 1
+  run units 1
+  instr p, 5
+  run units 2
+Preempted process 2
+
+priority:
+  2: 0
+  3: 0
+  4: 0
+Running: 3
+Sleep: 
+Ready: 4 2 
+Running process 3
+  run units 3
+Preempted process 3
+
+priority:
+  2: 0
+  3: 1
+  4: 0
+Running: 3
+Sleep: 
+Ready: 4 2 
+Running process 3
+  instr p, 1
+  run units 1
+  instr p, 5
+  run units 2
+Preempted process 3
+
+priority:
+  2: 0
+  3: 0
+  4: 0
+Running: 4
+Sleep: 
+Ready: 2 3 
+Running process 4
+  run units 3
+Preempted process 4
+
+priority:
+  2: 0
+  3: 0
+  4: 1
+Running: 4
+Sleep: 
+Ready: 2 3 
+Running process 4
+  instr p, 1
+  run units 1
+  instr p, 5
+  run units 2
+Preempted process 4
+
+priority:
+  2: 0
+  3: 0
+  4: 0
+Running: 2
+Sleep: 
+Ready: 3 4 
+Running process 2
+  run units 3
+Preempted process 2
+
+priority:
+  2: 1
+  3: 0
+  4: 0
+Running: 2
+Sleep: 
+Ready: 3 4 
+Running process 2
+Syscall process 2, syscall number 3
+End process 2
+
+priority:
+  3: 0
+  4: 0
+Running: 3
+Sleep: 
+Ready: 4 
+Running process 3
+  run units 3
+Preempted process 3
+
+priority:
+  3: 1
+  4: 0
+Running: 3
+Sleep: 
+Ready: 4 
+Running process 3
+Syscall process 3, syscall number 3
+End process 3
+
+priority:
+  4: 0
+Running: 4
+Sleep: 
+Ready: 
+Running process 4
+  run units 3
+Preempted process 4
+
+priority:
+  4: 1
+Running: 4
+Sleep: 
+Ready: 
+Running process 4
+Syscall process 4, syscall number 3
+End process 4

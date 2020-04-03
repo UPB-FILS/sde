@@ -1,0 +1,18 @@
+Start process 0
+Start process 1
+
+Running process 1
+  instr s, 1
+Syscall process 1, syscall number 1
+Sleep process 1, 1
+
+Running process 0
+  instr p, 1
+  run units 1
+  instr s, 1
+Syscall process 0, syscall number 1
+Sleep process 0, 1
+
+Running process 1
+Syscall process 1, syscall number 3
+End process 1

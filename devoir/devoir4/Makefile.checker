@@ -1,0 +1,14 @@
+.PHONY: all clean run pack build-pre build-post
+
+all: run clean
+	
+run: 
+	cd verify && ./run_all.sh ..
+	
+pack:
+	rm -rf scheduler.zip
+	zip -r scheduler.zip verify/ Makefile.checker\
+		README.md 
+
+clean:
+	rm -rf verify/output/

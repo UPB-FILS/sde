@@ -1,0 +1,399 @@
+--------------
+Verifying RR 1-empty.pse
+							      <
+Running process 1					      <
+Syscall process 1, syscall number 3			      <
+End process 1						      <
+
+--------------
+Verifying RRP 1-empty.pse
+							      <
+Running process 1					      <
+Syscall process 1, syscall number 3			      <
+End process 1						      <
+
+--------------
+Verifying CFS 1-empty.pse
+							      <
+Running process 1					      <
+Syscall process 1, syscall number 3			      <
+End process 1						      <
+
+--------------
+Verifying RR 2-process.pse
+							      <
+Running process 1					      <
+  instr p, 1						      <
+  run units 1						      <
+Syscall process 1, syscall number 3			      <
+End process 1						      <
+
+--------------
+Verifying RRP 2-process.pse
+							      <
+Running process 1					      <
+  instr p, 1						      <
+  run units 1						      <
+Syscall process 1, syscall number 3			      <
+End process 1						      <
+
+--------------
+Verifying CFS 2-process.pse
+							      <
+Running process 1					      <
+  instr p, 1						      <
+  run units 1						      <
+Syscall process 1, syscall number 3			      <
+End process 1						      <
+
+--------------
+Verifying RR 3-sleep.pse
+							      <
+Running process 1					      <
+  instr s, 1						      <
+Syscall process 1, syscall number 1			      <
+Sleep process 1, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+
+--------------
+Verifying RRP 3-sleep.pse
+							      <
+Running process 1					      <
+  instr s, 1						      <
+Syscall process 1, syscall number 1			      <
+Sleep process 1, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+
+--------------
+Verifying CFS 3-sleep.pse
+							      <
+Running process 1					      <
+  instr s, 1						      <
+Syscall process 1, syscall number 1			      <
+Sleep process 1, 1					      <
+							      <
+Running process 0					      <
+  instr p, 1						      <
+  run units 1						      <
+  instr s, 1						      <
+
+--------------
+Verifying RR 4-fork.pse
+							      <
+Running process 1					      <
+  instr f, process/empty.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/empty.pse			      <
+Start process 2						      <
+							      <
+Running process 2					      <
+Syscall process 2, syscall number 3			      <
+End process 2						      <
+
+--------------
+Verifying RRP 4-fork.pse
+							      <
+Running process 1					      <
+  instr f, process/empty.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/empty.pse			      <
+Start process 2						      <
+							      <
+Running process 2					      <
+Syscall process 2, syscall number 3			      <
+End process 2						      <
+
+--------------
+Verifying CFS 4-fork.pse
+							      <
+Running process 1					      <
+  instr f, process/empty.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/empty.pse			      <
+Start process 2						      <
+							      <
+Running process 1					      <
+Syscall process 1, syscall number 3			      <
+End process 1						      <
+
+--------------
+Verifying RR 5-process_sleep.pse
+							      <
+Running process 1					      <
+  instr p, 4						      <
+  run units 3						      <
+Preempted process 1					      <
+							      <
+Running process 1					      <
+  run units 1						      <
+  instr s, 8						      <
+Syscall process 1, syscall number 1			      <
+
+--------------
+Verifying RRP 5-process_sleep.pse
+							      <
+Running process 1					      <
+  instr p, 4						      <
+  run units 3						      <
+Preempted process 1					      <
+							      <
+Running process 1					      <
+  run units 1						      <
+  instr s, 8						      <
+Syscall process 1, syscall number 1			      <
+
+--------------
+Verifying CFS 5-process_sleep.pse
+							      <
+Running process 1					      <
+  instr p, 4						      <
+  run units 3						      <
+Preempted process 1					      <
+							      <
+Running process 1					      <
+  run units 1						      <
+  instr s, 8						      <
+Syscall process 1, syscall number 1			      <
+
+--------------
+Verifying RR 1-three-workers.pse
+							      <
+Running process 1					      <
+  instr f, process/worker.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/worker.pse			      <
+Start process 2						      <
+							      <
+Running process 2					      <
+  instr p, 7						      <
+  run units 3						      <
+
+--------------
+Verifying RRP 1-three-workers.pse
+							      <
+Running process 1					      <
+  instr f, process/worker.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/worker.pse			      <
+Start process 2						      <
+							      <
+Running process 2					      <
+  instr p, 7						      <
+  run units 3						      <
+
+--------------
+Verifying CFS 1-three-workers.pse
+							      <
+Running process 1					      <
+  instr f, process/worker.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/worker.pse			      <
+Start process 2						      <
+							      <
+Running process 1					      <
+  instr f, process/worker.pse				      <
+Syscall process 1, syscall number 2			      <
+
+--------------
+Verifying RR 2-three-sleepers.pse
+							      <
+Running process 1					      <
+  instr f, process/sleeper.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/sleeper.pse			      <
+Start process 2						      <
+							      <
+Running process 2					      <
+  instr s, 1						      <
+Syscall process 2, syscall number 1			      <
+
+--------------
+Verifying RRP 2-three-sleepers.pse
+							      <
+Running process 1					      <
+  instr f, process/sleeper.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/sleeper.pse			      <
+Start process 2						      <
+							      <
+Running process 2					      <
+  instr s, 1						      <
+Syscall process 2, syscall number 1			      <
+
+--------------
+Verifying CFS 2-three-sleepers.pse
+							      <
+Running process 1					      <
+  instr f, process/sleeper.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/sleeper.pse			      <
+Start process 2						      <
+							      <
+Running process 1					      <
+  instr f, process/sleeper.pse				      <
+Syscall process 1, syscall number 2			      <
+
+--------------
+Verifying RR 3-three-worker-sleeper.pse
+							      <
+Running process 1					      <
+  instr f, process/sleeper.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/sleeper.pse			      <
+Start process 2						      <
+							      <
+Running process 2					      <
+  instr s, 1						      <
+Syscall process 2, syscall number 1			      <
+
+--------------
+Verifying RRP 3-three-worker-sleeper.pse
+							      <
+Running process 1					      <
+  instr f, process/sleeper.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/sleeper.pse			      <
+Start process 2						      <
+							      <
+Running process 2					      <
+  instr s, 1						      <
+Syscall process 2, syscall number 1			      <
+
+--------------
+Verifying CFS 3-three-worker-sleeper.pse
+							      <
+Running process 1					      <
+  instr f, process/sleeper.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/sleeper.pse			      <
+Start process 2						      <
+							      <
+Running process 1					      <
+  instr f, process/worker.pse				      <
+Syscall process 1, syscall number 2			      <
+
+--------------
+Verifying RR 1-fork-bomb.pse
+							      <
+Running process 1					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, verify/3-power/1-fork-bomb.pse		      <
+Start process 2						      <
+							      <
+Running process 2					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 2, syscall number 2			      <
+
+--------------
+Verifying RRP 1-fork-bomb.pse
+							      <
+Running process 1					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, verify/3-power/1-fork-bomb.pse		      <
+Start process 2						      <
+							      <
+Running process 2					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 2, syscall number 2			      <
+
+--------------
+Verifying CFS 1-fork-bomb.pse
+							      <
+Running process 1					      <
+  instr f, verify/3-power/1-fork-bomb.pse		      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, verify/3-power/1-fork-bomb.pse		      <
+Start process 2						      <
+							      <
+Running process 1					      <
+  instr s, 100						      <
+Syscall process 1, syscall number 1			      <
+
+--------------
+Verifying RR 2-workers.pse
+							      <
+Running process 1					      <
+  instr f, process/worker.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/worker.pse			      <
+Start process 2						      <
+							      <
+Running process 2					      <
+  instr p, 7						      <
+  run units 3						      <
+
+--------------
+Verifying RRP 2-workers.pse
+							      <
+Running process 1					      <
+  instr f, process/worker.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/worker.pse			      <
+Start process 2						      <
+							      <
+Running process 2					      <
+  instr p, 7						      <
+  run units 3						      <
+
+--------------
+Verifying CFS 2-workers.pse
+							      <
+Running process 1					      <
+  instr f, process/worker.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/worker.pse			      <
+Start process 2						      <
+							      <
+Running process 1					      <
+  instr f, process/worker.pse				      <
+Syscall process 1, syscall number 2			      <
+
+--------------
+Verifying RR 3-sleepers.pse
+							      <
+Running process 1					      <
+  instr f, process/sleeper.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/sleeper.pse			      <
+Start process 2						      <
+							      <
+Running process 2					      <
+  instr s, 1						      <
+Syscall process 2, syscall number 1			      <
+
+--------------
+Verifying RRP 3-sleepers.pse
+							      <
+Running process 1					      <
+  instr f, process/sleeper.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/sleeper.pse			      <
+Start process 2						      <
+							      <
+Running process 2					      <
+  instr s, 1						      <
+Syscall process 2, syscall number 1			      <
+
+--------------
+Verifying CFS 3-sleepers.pse
+							      <
+Running process 1					      <
+  instr f, process/sleeper.pse				      <
+Syscall process 1, syscall number 2			      <
+Fork process 1, process/sleeper.pse			      <
+Start process 2						      <
+							      <
+Running process 1					      <
+  instr f, process/sleeper.pse				      <
+Syscall process 1, syscall number 2			      <
+
