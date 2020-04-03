@@ -72,6 +72,10 @@ def parse_line (line):
 	global env_variable_name
 	global out_file
 	global args
+	global value
+	out_file = None
+	env_variable_value = None
+	env_variable_name = None
 	args = []
 	ret = SIMPLE
 
@@ -81,9 +85,10 @@ def parse_line (line):
 
 	# var = value
 	if '=' in line:
-		tokens = line.split ("=")
+		tokens = line.split ('=')
 		if len(tokens) != 2:
 			return ERROR
+
         # get var; make sure line is correct
 		var_tokens = tokens[0].split ()
 		if len(var_tokens) != 1:
@@ -100,6 +105,7 @@ def parse_line (line):
 	# copy args
 	tokens = line.split()
 
+	redirect = False
 	for index,token in enumerate(tokens):
 		if token[0] == '$':
 			new_token = expand (token[1:])
@@ -109,8 +115,12 @@ def parse_line (line):
 			args.append (new_token)
 		elif token == ">":
 			out_file = tokens[index+1]
+			redirect = True
 		else:
-			args.append (token)
+			if not redirect:
+				args.append (token)
+			else:
+				redirect = False
 	return ret
 
 def main ():
@@ -118,6 +128,9 @@ def main ():
 		line = input("> ")
 
 		cmd_type = parse_line(line)
+
+		# print ("cmd_type: {}".format (cmd_type))
+		# print (args)
 
 		if cmd_type == SHELL_EXIT:
 			sys.exit(EXIT_SUCCESS)
