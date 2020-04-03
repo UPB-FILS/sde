@@ -239,3 +239,5 @@ then
     echo -e "Original file						      | Your file" 1>&2
     cat $errorslist 1>&2
 fi
+
+rm -rf errors.out
