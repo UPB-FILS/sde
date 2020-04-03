@@ -12,3 +12,4 @@ pack:
 
 clean:
 	rm -rf verify/output/
+	rm -rf output/
