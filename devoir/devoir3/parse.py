@@ -121,7 +121,6 @@ def parseNode (node, redirects):
                     command.append_err = True
                     command.append_out = True
             elif part.kind == 'word' and len (part.parts) > 0:
-                print (part.parts[0])
                 command.commands.append (parseNode (part.parts[0], None))
         return command
     elif node.kind == 'redirect':
