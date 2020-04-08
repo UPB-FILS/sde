@@ -26,11 +26,9 @@ def worker4():
     print ('worker 4 end')
 
 # main process
-def main():
-    # TODO - start threads
 
-    time.sleep (3)
+# TODO - start threads
 
-    # TODO - wait for threads
+time.sleep (3)
 
-main ()
+# TODO - wait for threads
