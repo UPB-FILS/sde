@@ -1,4 +1,5 @@
 import time
+import threading
 
 def worker0():
     print ('worker 0 start')
@@ -26,10 +27,17 @@ def worker4():
     print ('worker 4 end')
 
 # main process
-# TODO - start threads
 
+threads = []
+workers = [worker0, worker1, worker2, worker3, worker4]
+for w in workers:
+    t = threading.Thread (target=w)
+    threads.append (t)
+    t.start()
 time.sleep (3)
 
-# TODO - wait for threads
+for t in threads:
+    if (t.is_alive()):
+        t.join()
 
 
