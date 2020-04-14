@@ -3,30 +3,25 @@ import random
 
 AVG_COUNT = 10
 
-semaphore = threading.Semaphore (2)
+cond = threading.Condition ()
 
-min = 0
-max = 0
+numbers = []
 
-def generate_min():
-    global min
-    random.seed (0)
-    min = random.randint(1000, 2000)
+def generate_rand(seed_nr):
+    global numbers
+    random.seed (seed_nr)
+    numbers.append (random.randint(2000, 3000))
 
-def generate_max():
-    global max
-    random.seed (0)
-    max = random.randint(2000, 3000)
+def compute_avg (): 
+    sum = 0
+    for i in numbers:
+        sum = sum + i
+    print (sum/AVG_COUNT)
 
+t = threading.Thread(target=compute_avg)
+t.start()
 
 for i in range (AVG_COUNT):
-    t_min = threading.Thread (target=generate_min)
-    t_max = threading.Thread (target=generate_max)
-    t_min.start()
-    t_max.start()
+    t = threading.Thread(target=generate_rand, args=(i,))
+    t.start()
 
-    sum = 0
-    count = t_max - t_min
-    for i in range (min,max):
-        sum = sum + i
-    print (sum/count)
