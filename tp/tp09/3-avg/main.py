@@ -5,14 +5,18 @@ AVG_COUNT = 10
 
 cond = threading.Condition ()
 
+numbers = []
 
 def generate_rand(seed_nr):
     global numbers
-    r = random.randint(2000, 3000)
-    #TODO - add random numbers to queue
+    random.seed (seed_nr)
+    numbers.append (random.randint(2000, 3000))
 
 def compute_avg (): 
-    #TODO - read numbers from queue
+    sum = 0
+    for i in numbers:
+        sum = sum + i
+    print (sum/AVG_COUNT)
 
 t = threading.Thread(target=compute_avg)
 t.start()
@@ -20,5 +24,3 @@ t.start()
 for i in range (AVG_COUNT):
     t = threading.Thread(target=generate_rand, args=(i,))
     t.start()
-
-
