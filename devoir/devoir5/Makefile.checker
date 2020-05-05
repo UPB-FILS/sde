@@ -1,0 +1,22 @@
+.PHONY: all clean run pack build-pre
+
+all: build-pre run
+
+build-pre:
+	rm -rf node_modules
+	npm i axios
+	chmod a-rx public/forbidden.html
+	chmod a+x scripts/*.sh
+	chmod a+x scripts/test/*.sh
+	chmod a-x scripts/forbidden.sh
+
+	rm -rf output
+	mkdir -p output
+	chmod u+x verify/run_all.sh
+
+run: 
+	cd verify && ./run_all.sh ..
+	
+pack:
+	rm -f server.zip
+	zip -r server.zip public/ reference/ scripts/ tests/ verify/ Makefile.checker config.json
