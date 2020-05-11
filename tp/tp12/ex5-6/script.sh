@@ -1,0 +1,2 @@
+read text
+echo $text
