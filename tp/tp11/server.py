@@ -25,6 +25,27 @@ while True:
 
     if (msg[0:3] == "GET") and (msg[4:6] == "/ "):
         conn.send (('HTTP/1.0 200 OK\r\nContent-type:application/json\r\nConnection: close\r\n\r\n{}'.format(json.dumps(users))).encode('ascii'))
+    elif (msg[0:3] == "GET") and (msg[4:12] == "/person "):
+        conn.send (('HTTP/1.0 200 OK\r\nContent-type:text/html\r\nContent-type:application/json\r\nConnection: close\r\n\r\n{}'.format(json.dumps({
+"name" : "Harry Potter",
+"age" : 10,
+"country" : "UK"
+}))).encode('ascii'))
+    elif (msg[0:4] == "POST") and (msg[5:12] == "/"):
+        # print (msg)
+        body = get_body (msg)
+        print ('('+body+')')
+        if body == "age":
+            response = 10
+        if body == "name":
+            response = "Raluca Manea"
+        if body == "country":
+            response = "Romania"
+        try:
+            # users.append (json.loads(body))
+            conn.send (('HTTP/1.0 200 OK\r\nContent-type:text/plain\r\nConnection: close\r\n\r\n{}').format (response).encode ('ascii'))
+        except:
+            return_error(conn)
     elif (msg[0:4] == "POST") and (msg[5:12] == "/insert"):
         body = get_body (msg)
         try:

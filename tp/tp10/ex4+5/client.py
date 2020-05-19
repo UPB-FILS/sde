@@ -11,7 +11,7 @@ def connect (msg):
     # send message
     s.send (msg)
     # read message
-    data, addr = s.recvfrom (buffersize)
+    data = s.recv (buffersize)
     # close connection
     s.close ()
     output = data.decode ("utf-8")
@@ -21,3 +21,6 @@ commands = ["ls", "ls -l", "pwd", "touch test", "ls -l"]
 for c in commands:
     t = threading.Thread (target=connect, args=(c, ))
     t.start()
+    # connect (c)
+
+# connect ("ls -l")

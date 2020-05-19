@@ -6,11 +6,13 @@ buffersize = 2048
 
 def worker (conn):
     while True:
-        data = conn.recv(buffersize)
-        if not data:
+        try:
+            data = conn.recv(buffersize)
+        except:
             break
         msg = data.decode("utf-8") 
         cmd = msg.split()
+        print (cmd)
         r, w = os.pipe() 
         pid = os.fork()
         if pid == 0:
@@ -29,6 +31,8 @@ s = socket.socket (family=socket.AF_INET, type=socket.SOCK_STREAM)
 s.bind (("0.0.0.0", 8000))
 s.listen (0)
 while True:
-    conn, addr = s.accept ()
-    t = threading.Thread (target=worker, args=(conn, ))
+    print ("Waiting for connections")
+    client_socket, addr = s.accept ()
+    print ("Connected {}".format (addr))
+    t = threading.Thread (target=worker, args=(client_socket, ))
     t.start()
